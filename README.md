@@ -11,7 +11,7 @@ Sakurako-Chan é um bot contruido em Python utilizando a biblioteca discord.py. 
   *Obs: Esse foi o meu primeiro projeto relativamente grande em Python após 7 meses aprendendo a linguagem.* 
 
 ## Atenção
-Caso deseje apenas adicionar o bot ao seu servidor do Discord sem ter que baixar arquivos nem fazer nenhum tipo de configuração, ignore as seções: **Pré-Requisitos** e **Instalação** e simplesmente entre [neste link](https://discord.com/oauth2/authorize?client_id=708084158743838750&permissions=68608&scope=bot) e selecione o servidor que deseja adiciona-lo. <br>
+Caso deseje apenas adicionar o bot ao seu servidor do Discord sem ter que baixar arquivos nem fazer nenhum tipo de configuração, ignore as seções: **Pré-Requisitos** e **Instalação** e simplesmente entre [neste link](https://discord.com/oauth2/authorize?client_id=708084158743838750&permissions=68608&scope=bot) e selecione o servidor que deseja adiciona-lo. Após o bot se juntar ao seu servidor digite: ***comandos** em um canal de texto para visualizar os comandos que o bot pode receber.<br>
 
 Agora, caso deseje ter maior controle sobre o bot e até mesmo personalizar seus comandos leia as duas próximas seções.
 ## Pré-Requisitos
@@ -49,3 +49,10 @@ Substitua a string **'Token do Bot'** por uma string contendo o token fornecido 
 api_key = 'Key para acessar a API da Riot Games'
 ```
 Substitua a string **'Key para acessar a API da Riot Games'** por uma string contendo sua API Key sem os 6 primeiros caracteres: **"RGAPI-"**.
+<br>
+Inicie o arquivo **bot.py** e espere até receber a mensagem "Tudo ok!" no terminal. Entre em um canal de texto do servidor do Discord em que seu bot está e digite ***comandos** caso esteja tudo certo o bot lhe responderá com uma mensagem exemplificando os seus comandos.
+
+## Referências e Links Úteis
+[**Documentação da biblioteca discord.py**](https://discordpy.readthedocs.io/en/latest/) <br>
+[**Documentação da Riot Games API**](https://developer.riotgames.com/apis) <br>
+[**Documentação da biblioteca requests**](https://requests.readthedocs.io/en/master/) <br>
